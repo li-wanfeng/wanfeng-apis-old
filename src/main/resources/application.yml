@@ -7,7 +7,7 @@ spring:
     name: apis
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/li_user
+    url: jdbc:mysql://localhost:3306/li_user  # 这里换成自己所在的数据库
     username: root
     password: root
   mvc:
